@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Servicios profesionales de contador público en asesoramiento económico, tributario y laboral. Contacta a Pablo Banegas para servicios de contabilidad personalizados.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title> Pablo Banegas Contador</title>
+</head>
+
+<body>
+
+
+
+    <section class="photo" id="inicio">
+
+        <div class="nav" id="sticker">
+            <!-- Icono de menú para dispositivos móviles -->
+            <label for="toggle" class="menu-icon">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+
+            <nav class="nav">
+                <div class="nav-content">
+                    <div class="logo">Pablo Banegas</div>
+                    <div class="menu-icon" id="menuToggle">&#9776;</div>
+                    <div class="menu" id="menu">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicio">Servicios</a>
+                        <a href="#contacto">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="photo-text">
+            <h1>Pablo Banegas</h1>
+            <p>
+            <h2>contador Publico</h2>
+            </p>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+
+    <!--SERVICIOS-->
+    <section class="content">
+        <div class="grand-title" id="servicio">
+            <h2 data-ix="slowfade-scroll-bigs">Aseroramiento economico, tributario y laboral.
+            </h2>
+
+        </div>
+
+        <div class="servicios">
+            <div class="petro">
+                <p>SERVICIOS Y ASESORAMIENTOS A EMPRESAS DE PETRÓLEO.</p>
+                <img src="/img/servicios_y_asesoramientos_a_empresas_de_petr_leo.jpeg"
+                    alt="Servicios y asesoramientos a empresas de petróleo">
+
+            </div>
+            <div class="comercio">
+                <p>SERVICIOS Y ASESORAMIENTOS A COMERCIOS.</p>
+                <img src="./img/estudio_contable_sin_rostro_imagen_mano 2.jpeg"
+                    alt="Servicios y asesoramientos a comercios">
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!--CONTACTO -->
+    <div class="contact" id="contacto">
+        <h4 data-ix="slowfade-scroll-bigs">Contacto</h4>
+        <div class="container">
+            <form action="enviar.php" method="post">
+                <ul class="flex-outer">
+                  
+                    <li>
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" placeholder="Ingresa Correo" class="rect" required>
+                    </li>
+                  
+                    <li>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea rows="6" name="mensaje" class="rect" placeholder="ingresa mensaje" required></textarea>
+                    </li>
+                    <li class="center">
+                        <button type="submit">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+
+    <a href="https://wa.me/1234567890" class="whatsapp-fixed" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+</body>
+
+</html>
