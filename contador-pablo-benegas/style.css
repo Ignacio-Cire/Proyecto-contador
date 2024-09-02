@@ -591,6 +591,7 @@ label {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    
 }
 
 .footer-section {
@@ -614,16 +615,18 @@ label {
 .social-icons {
     display: flex;
     gap: 15px;
+    
 }
 
 .social-icons a img {
-    width: 24px;
-    height: 24px;
+    width: 60px;
+    height: 60px;
     transition: opacity 0.3s ease;
+    
 }
 
 .social-icons a:hover img {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .footer-bottom {
