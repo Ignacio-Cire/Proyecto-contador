@@ -536,8 +536,120 @@ label {
     }
 }
 /*------------------FIN WSPP------------------------------*/
+.whatsapp-fixed {
+    position: fixed; /* Mantiene el botón en una posición fija */
+    bottom: 20px; /* Espacio desde la parte inferior */
+    right: 20px; /* Espacio desde la parte derecha */
+    z-index: 1000; /* Asegura que el botón esté sobre otros elementos */
+}
+
+.whatsapp-fixed img {
+    width: 50px; /* Tamaño del ícono */
+    height: 50px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .whatsapp-fixed {
+        bottom: 15px; /* Ajusta el espacio desde el fondo en pantallas más pequeñas */
+        right: 15px; /* Ajusta el espacio desde la derecha en pantallas más pequeñas */
+    }
+
+    .whatsapp-fixed img {
+        width: 40px; /* Tamaño del ícono para pantallas más pequeñas */
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .whatsapp-fixed {
+        bottom: 10px; /* Ajusta el espacio desde el fondo en pantallas aún más pequeñas */
+        right: 10px; /* Ajusta el espacio desde la derecha en pantallas aún más pequeñas */
+    }
+
+    .whatsapp-fixed img {
+        width: 35px; /* Tamaño del ícono para pantallas aún más pequeñas */
+        height: 35px;
+    }
+}
 
 
 
 /*footer*/
 
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+.social-icons a:hover img {
+    opacity: 0.8;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
